@@ -1,0 +1,80 @@
+
+h1,h2,h3,p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(2,33,66);
+}
+
+.blue_bg_solid {
+    background-color: rgba(6, 53, 107);
+}
+.blue_bg {
+    background-color: rgba(6, 53, 107, 0.4);
+}
+.pink_bg{
+    background-color: rgba(226, 165, 159, 0.4);
+}
+.green_bg {
+    background-color: rgb(174,215,94,0.4);
+}
+.orange_bg {
+    background-color: rgb(225,170,57,0.4);
+}
+
+.pink_border{
+    border-color: rgba(226, 165, 159, 0.4);
+}
+.green_border {
+    border-color: rgb(174,215,94,0.4);
+}
+.orange_border {
+    border-color: rgb(225,170,57,0.4);
+    border-right: 5px;
+    border-bottom: 5px;
+}
+
+.bright {
+    color: rgb(243, 189, 90)
+}
+
+.darker {
+    opacity: 0.75;
+  }
+.transparency{
+    opacity:0.30;
+}  
+
+#sub-title {
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 110%;
+    opacity: 0.75;
+    text-shadow: 1px 1px 7px rgb(63, 71, 126);
+}
+
+
+.title {
+    font-family: 'Protest Riot', sans-serif;
+    display:inline;
+    font-size: 3em;
+    text-shadow: 0.8px 0.8px 6px rgb(82, 83, 88);
+}
+
+footer h1 {
+    font-size: 16px;
+}
+footer h2 {
+    font-size: 14px;
+}
+
+.block_text {
+    text-shadow: 2px 2px 15px rgb(2,33,66);;
+
+}
+
+.topnav a {
+    font-family: 'Roboto',serif;
+
+}
+
