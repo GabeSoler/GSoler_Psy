@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gabriel Soler</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./structure.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/structure.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://kit.fontawesome.com/162f303141.js" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
 <div class="content">
   
 <header class="sticky blue_bg_solid" id="myHeader">
-   <h1 class="bright title">Dr Gabriel Soler</h1>
+   <a href="#hero-image"><h1 class="bright title">Dr Gabriel Soler</h1></a>
     <h1 id="sub-title" class="bright">Psychotherapyst</h1>
 
   <nav class="topnav" id="myTopnav">
@@ -30,42 +30,42 @@
     <a href="#footer">Contact</a>
     <a href="#about">About</a>
     <a href="#about">Academic</a>
-    <a href="javascript:void(0);" class="icon" onclick="navToggle()">
+    <button type="button" class="icon" onclick="navToggle()">
       <i class="fa fa-bars"></i>
-    </a>
+    </button>
   </nav>
 
 </header>
 
+
 <div class="hero-image">
   
-  <div class="blue_bg block_text response_div">
+  <div class="blue_bg block_text response_div" id="first-card">
           <h2 class="bright">Welcome to My Website</h2>
-          <p class="bright darker">Hi, this is my first website</p> 
   </div>
-  <div class="green_bg block_text response_div orange_border">
-      <h3 class="bright">Working with migration</h3>
-      <p class="bright darker">Hi, this is my first website</p> 
+  <div class="green_bg block_text response_div orange_border" onclick="location.href='./content/about.html'" id="second-card">
+      <h3 class="bright">About me</h3>
+      <p class="bright darker">Read about my life story</p> 
   </div>
-  <div class="pink_bg block_text response_div">
-    <h3 class="bright">Working with migration</h3>
-    <p class="bright darker">Hi, this is my first website</p> 
+  <div class="pink_bg block_text response_div" id="third-card">
+    <h3 class="bright">My Practice</h3>
+    <p class="bright darker">Learn some practical details</p> 
   </div>
-  <div class="orange_bg block_text response_div">
-    <h3 class="bright">Working with migration</h3>
-    <p class="bright darker">Hi, this is my first website</p> 
+  <div class="orange_bg block_text response_div" id="fourth-card">
+    <h3 class="bright">CreaTherapy: My Theory</h3>
+    <p class="bright darker">Read my psychotherapeutic thinking</p> 
   </div>
 </div>
 
 <article class="blue_bg block_container">
   <div class="blue_bg block_intro response_div">
-    <h2 class="bright">Welcome to My Website</h2>
-    <p class="bright darker">Hi, this is my first website</p> 
+    <h2 class="bright">Working with migration</h2>
+    <p class="bright darker">As a person who lives between cultures and countries I love working with the effects that migration and culture have in our mental health</p> 
 </div>
 <div class="green_bg block_intro response_div orange_border">
-    <h3 class="bright">Working with migration</h3>
+    <h3 class="bright">Using Creativity</h3>
     <i class="fa-solid fa-people-arrows"></i>
-    <p class="bright darker">Hi, this is my first website</p> 
+    <p class="bright darker">Creative processes are at the core of my practice, as I believe its the creative impulse what makes us grow and move away from difficult patterns</p> 
 </div>
 <div class="pink_bg block_intro response_div">
     <h3 class="bright">Working with migration</h3>
@@ -98,7 +98,7 @@
   <div><p class="bright">Made by Gabriel Soler</p></div>
 </footer>
 
-<script src="base.js"></script>
+<script src="./js/script.js"></script>
 </div>
 </body>
 </html>

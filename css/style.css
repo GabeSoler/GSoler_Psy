@@ -1,7 +1,15 @@
 
 h1,h2,h3,p {
     font-family: 'Roboto', sans-serif;
+    color: rgb(243, 189, 90)
+
 }
+
+p {
+    opacity: 0.75;
+    text-shadow: 2px 2px 3px rgb(23, 26, 36);
+}
+
 
 body {
     background-color: rgb(2,33,66);
@@ -35,12 +43,17 @@ body {
     border-bottom: 5px;
 }
 
+
+
+
+
 .bright {
     color: rgb(243, 189, 90)
 }
 
 .darker {
     opacity: 0.75;
+    text-shadow: 2px 2px 3px rgb(23, 26, 36);
   }
 .transparency{
     opacity:0.30;
@@ -78,3 +91,10 @@ footer h2 {
 
 }
 
+a .title {
+    text-decoration: none;
+}
+
+a:hover .title  {
+    color: rgb(229, 201, 148);
+}
