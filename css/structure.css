@@ -19,8 +19,22 @@ header {
     padding: 0.5em;
     margin: 0em;
     box-shadow: 5px;
-    position: 0 absolute;
-    z-index: 5;
+    position: fixed;
+    top: 0;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-delay: 1ms,10ms;    
+    z-index: 6;
+}
+
+
+
+.desapear {
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-delay: 70ms,50ms;
+  transform:scale(1,0)
+
 }
 
 .hero-image {
@@ -30,13 +44,11 @@ header {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 15px;
 }
 
 
-.sticky {
-    position: fixed;
-    top: 0;
-}
+
 
 main {
     margin-top: 116px;
@@ -87,8 +99,22 @@ main {
     padding-right: 1em;
     margin:1em;
     box-shadow: 2em 2em 4em  black;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 70ms,50ms;
+    transform:scale(1,0)
+  
 
 }
+  .desapear {
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 70ms,50ms;
+    transform:scale(1,0)
+  
+  }
+
+
 
 .response_div {
     transition-property: all;
@@ -123,9 +149,7 @@ main {
 
 
 
-.sticky + .content {
-    padding-top: 20%;
-    }
+
 
 footer {
     height: 4em;
